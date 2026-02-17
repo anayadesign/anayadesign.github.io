@@ -7,6 +7,12 @@
   margin-right: 1em;
 }
 .icon-social svg {
-  fill: #FFF;
+  fill: white;
   display: block;
+}
+
+@media (prefers-color-scheme: light) {
+  .icon-social svg {
+    fill: #242424;
+  }
 }
