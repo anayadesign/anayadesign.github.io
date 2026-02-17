@@ -17,7 +17,7 @@ function App() {
         </section>
       </main>
       <footer className="footer">
-        <p>© 2026 David Anaya</p>
+        <p>© 2026</p>
       </footer>
     </div>
   );

@@ -19,13 +19,8 @@ const Header = () => {
           I'm a frontend engineer based in Oakland, CA.
         </p>
         <div className="header--apps">
-          {Object.keys(social).map((key) => (
-            <Icon
-              name={key}
-              link={social[key]}
-              key={key}
-              className="icon-social"
-            />
+          {Object.entries(social).map(([key, value]) => (
+            <Icon name={key} link={value} key={key} className="icon-social" />
           ))}
         </div>
       </div>
